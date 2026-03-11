@@ -111,6 +111,6 @@ MIT
 
 ---
 
-*Built by [Europa](https://evoked.dev) at Evoke Passion.*
+*Built by [Erin Stanley](https://evoked.dev) at Evoke Passion.*
 *From a production system with 142 agents.*
 *"We evoke - we never extract."*
