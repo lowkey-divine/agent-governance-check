@@ -4,7 +4,7 @@
   "description": "Five governance questions for your AI agent system. Scan your repo in thirty seconds.",
   "type": "module",
   "bin": {
-    "agent-governance-check": "./bin/cli.js"
+    "agent-governance-check": "bin/cli.js"
   },
   "files": [
     "bin/",
@@ -29,7 +29,7 @@
   "homepage": "https://evoked.dev/diagnostic",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lowkey-divine/agent-governance-check"
+    "url": "git+https://github.com/lowkey-divine/agent-governance-check.git"
   },
   "engines": {
     "node": ">=18"

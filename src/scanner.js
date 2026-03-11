@@ -36,7 +36,7 @@ function matchGlob(filePath, pattern) {
       pi++;
       fi++;
     } else if (parts[pi].includes('*')) {
-      const regex = new RegExp('^' + parts[pi].replace(/\*/g, '.*').replace(/\?/g, '.') + '$');
+      const regex = new RegExp('^' + parts[pi].replace(/[.+^${}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*').replace(/\?/g, '.') + '$');
       if (regex.test(fileParts[fi])) {
         pi++;
         fi++;
